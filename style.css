@@ -1,0 +1,53 @@
+
+body {
+font-family: sans-serif;
+background: #fafafa;
+color: #333;
+margin: 0;
+padding: 0;
+}
+
+header {
+background: #607d8b;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+color: #455a64;
+margin-bottom: 10px;
+}
+
+.grid {
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 25px;
+}
+
+.card {
+background: #fff;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+overflow: hidden;
+position: relative;
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: scale(1.25);
+}
+
+.card img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 14px;
+}
